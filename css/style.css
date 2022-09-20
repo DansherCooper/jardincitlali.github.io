@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {margin: 0; padding: 0;}
+
+body {background-image: url("../IMG/FondoBody.jpg"); background-repeat: no-repeat; background-size: cover;  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; text-align: center;}
+
+/*HEADER*/
+
+.header {width: 85%; height: 160px; background-image: url("../img/FondoTop.jpg"); background-repeat: no-repeat; background-size: cover; margin: 0 auto;}
+
+.header img {float: left; margin-left: 30px;}
+
+/*MENU*/
+
+.menu {width: 85%; height: 50px; color: azure; margin: 0 auto;}
+
+.menu ul {float: left;}
+
+.menu ul {width: 100%; list-style-type: none;}
+
+.menu li {width: 25%; float: left; background-color: darkblue; height: 50px; line-height: 50px;}
+
+.menu li:hover {background-color: darkcyan;}
+
+.menu a {text-decoration: none; color: azure;}
+
+.menu li {text-align: center;}
+
+.menu li a {display: block;}
+
+.menu > li {float: left;}
+
+.menu li ul {display: none; position: absolute; min-width: 10%;}
+
+.menu li:hover > ul {display: block;}
+
+/*DROPDOWN*/
+/*
+.dropdown {width: 85%; height: 50px; color: azure; margin: 0 auto;}
+
+.dropdown ul {float: left;}
+
+.dropdown ul {width: 100%; list-style-type: none;}
+
+.dropdown li {width: 25%; float: left; background-color: darkcyan; height: 50px; line-height: 50px;}
+
+li:hover {background-color: darkslategray;}
+
+.dropdown a {text-decoration: none; color: azure;}
+
+.dropdown li {text-align: center;}*/
+
+/*WRAPPER*/
+
+.wrapper {width: 85%; background-color: white; margin: 0 auto; box-shadow: 5px 5px 10px #333333;} 
+/*Box-Shadow - El primer valor hace referencia a X , el segundo a Y, el tercer valor es el desenfoque o difuminado y el cuarto valor es el color*/
+
+@font-face {src: url("../src/CODE Bold.otf"); font-family: titulos;}
+
+h3 {font-family: titulos; color: darkblue; text-align: left; margin-top: 10px; margin-bottom: 10px;}
+
+.wrapper p {text-align: justify;}
+
+/*FOOTER*/
+
+.footer {width: 85%; background-color: darkblue; height: 50px; margin: 0 auto; line-height: 50px; font-size: 12px; color: white;}
+
+.footer {text-align: center;}
+
+/*RETICULA*/
+
+.section {padding: 20px; float: left; box-sizing: border-box;}
+.col01 {width: 10%;}
+.col02 {width: 20%;}
+.col03 {width: 30%;}
+.col04 {width: 40%;}
+.col05 {width: 50%;}
+.col06 {width: 60%;}
+.col07 {width: 70%;}
+.col08 {width: 80%;}
+.col09 {width: 90%;}
+.col10 {width: 100%;}
+
+.clear {clear: both;}
+
+/*H1*/
+h1 {text-align: center;}
+
+h1 {color: cornflowerblue;}
+
+@font-face {src: url("../src/Champagne & Limousines Bold.ttf"); font-family: titulos2;}
+h1 {font-family: titulos2;}
+
+#tituloprincipal {margin-left: 10%;}
+#tituloprincipal {font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"}
+
+h2 {font-family: titulos; color: darkblue; text-align: center; margin-top: 10px; margin-bottom: 10px;}
+
+p {font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"; font-size: 16px;}
+
+#profesoras {text-align: center; list-style-position: inside;}
+
+#profesoras p b {text-align: center; font-size: 20px;}
+
+#profesorasslider {text-align: center}
+
+#costos {text-align: center;}
+
+#audio {text-align: center;}
+
+#videoindex {text-align: center}
+
